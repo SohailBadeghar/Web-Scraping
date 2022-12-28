@@ -5,8 +5,8 @@ Web Scraping
     • Web scraping  is a technique used to collect content and data from the internet/
      any website.
     • By using this procss we can extract huge amount data in a very short time.
-    • Mostly the data is unstructured in an HTML formate  we have to convert it into                  	structured formate.
-    • Many large websites, like Google,facebook, twitter etc. Have API’s that allows to 	access their data in structured formate.
+    • Mostly the data is unstructured in an HTML formate  we have to convert it into structured formate.
+    • Many large websites, like Google,facebook, twitter etc. Have API’s that allows to access their data in structured formate.
     • Web scarpping has multiple applications used :
             ▪ Price monitoring
             ▪ Market Research
@@ -16,44 +16,44 @@ Web Scraping
        
 	Different ways to perform web scraping:
 	
-	There are the many ways to perform web scraping to collect data from from 	websites. For Example:
+	There are the many ways to perform web scraping to collect data from websites. For Example:
     		1. online services.
     		2. particular API’s .
-   		3. You can create your own code fro for web scraping for from 		              scractch.
+   		3. You can create your own code fro for web scraping for from scractch.
 
 
 2.How Does a Web Scrapper Functions?
-    • There are different Methods depending on the software or tools your using , all       	the web scraping bots follow three basic principles:
+    • There are different Methods depending on the software or tools your using , all the web scraping bots follow three basic principles:
             ▪ Step 1 : Making an HTTP request to a server.
             ▪ Step 2 : Extracting And Parsing the Website code.
-            ▪ Step 3 : Saving the relevent Data which you have Scrapped into locally into 			the Files.
+            ▪ Step 3 : Saving the relevent Data which you have Scrapped into locally into the Files.
 		
-       STEP 1 : Making An HTTP Request To a Server 
-			
-    • When you visited a website using your browser , you will send the HTTP 	request .
-    • This is basically request the website and ask the permission to give the access of 	website . If it is not acceble then we can not get the scarpping data from that 	website.
-    • Once your request is approved then you can access all the information of that site.
-• A web scrapper always need permisiion to access a site.
+	    STEP 1 : Making An HTTP Request To a Server 
+
+	    • When you visited a website using your browser , you will send the HTTP 	request .
+	    • This is basically request the website and ask the permission to give the access of website . If it is not acceble then we can not get the 	      scarpping data from that website.
+	    • Once your request is approved then you can access all the information of that site.
+	    • A web scrapper always need permisiion to access a site.
 		
 
- STEP 2:  Extracting And Parsing the websites code
-    • once a Website gives a permisiion to scarpper access, the bot can read and extract 	the sites HTML or XML code.
-    • This code determines the website’s content structure. 
-    • The scraper will then parse the code (which basically means breaking it down 	into its constituent parts) so that it can identify and extract elements or objects 	that have been predefined by whoever set the bot loose! 
-    • These might include specific text, ratings, classes, tags, IDs, or other information.
-      		
-STEP 3:  Saving  the Relevent Data Locally
-    • Once the HTML or XML has been accessed, scraped, and parsed, the web scraper will then store the relevant data locally.
-    • As we decided , the data extracted is predifined by you. Data Will be stored as structured data, we can store in differnt formate like excel file,  CSV , XLS or in json fromaLiberation Serifte .
+	    STEP 2:  Extracting And Parsing the websites code
+	    • once a Website gives a permisiion to scarpper access, the bot can read and extract the sites HTML or XML code.
+	    • This code determines the website’s content structure. 
+	    • The scraper will then parse the code (which basically means breaking it down into its constituent parts) so that it can identify and                     extract elements or objects that have been predefined by whoever set the bot loose! 
+	    • These might include specific text, ratings, classes, tags, IDs, or other information.
 
-STEP 4:  How to Scrap the Web (step-by-step)
-    • Simple Steps to scrap the any Web:
-            ▪ Step 1: Find the URL’s  you want to scrap 
-            ▪ Step 2 : Inspect the Page
-            ▪ Step 3:  Identify the data you want to extract
-            ▪ Step 4: Write the necessary Code for the scrapping.	
-            ▪ Step 5: Execute the code.
-            ▪ Step 6:  Storing the Data
+	    STEP 3:  Saving  the Relevent Data Locally
+	    • Once the HTML or XML has been accessed, scraped, and parsed, the web scraper will then store the relevant data locally.
+	    • As we decided , the data extracted is predifined by you. Data Will be stored as structured data, we can store in differnt formate like 		      excel file,  CSV , XLS or in json fromaLiberation Serifte .
+
+	    STEP 4:  How to Scrap the Web (step-by-step)
+	    • Simple Steps to scrap the any Web:
+		    ▪ Step 1: Find the URL’s  you want to scrap 
+		    ▪ Step 2 : Inspect the Page
+		    ▪ Step 3:  Identify the data you want to extract
+		    ▪ Step 4: Write the necessary Code for the scrapping.	
+		    ▪ Step 5: Execute the code.
+		    ▪ Step 6:  Storing the Data
 			
 
 
@@ -71,41 +71,10 @@ STEP 4:  How to Scrap the Web (step-by-step)
 
   	  • scrapy  a Python-based application framework that crawls and extracts structured data from the web.
   	  •  It’s commonly used for data mining, information processing, and for  archiving historical content. 
-   	 • As well as web scraping (which it was specifically designed for) it can be used as a general-purpose web crawler, or to extract data through APIs.
+   	  • As well as web scraping (which it was specifically designed for) it can be used as a general-purpose web crawler, or to extract data through 	     APIs.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-PYTHON REQUEST MODULE
+								PYTHON REQUEST MODULE
 
 Request Library:
     • Requests library is one of the integral part of Python for making HTTP requests to a specified URL.
@@ -127,8 +96,6 @@ Basic Usage of requests:
     • If user build a GET request and request the website(xyz website) It will return the corresponding information of that website.
 
       
-
-
 2.POST Method:
     • POST is a request method supported by HTTP used by the World Wide Web.
     •  By design, the POST request method requests that a web server accepts the data enclosed in the body of the request message, most likely for storing it. 

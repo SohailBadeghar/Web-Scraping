@@ -14,13 +14,13 @@ def test_sqrt():
     assert math.sqrt(num) == 5
 
 
-def testsquare():
+def test_mul():
     num = 7
     assert 7*7 == 40
 
 
-def test_quality():
-    assert 10 == 11
+def test_match():
+    assert 11 == 11
 
 
 class TestDemo():

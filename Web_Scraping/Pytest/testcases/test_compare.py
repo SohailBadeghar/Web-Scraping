@@ -1,18 +1,19 @@
 
-# '''
-# In this test cases first function will failed and remaining 2 function will be passed.
-# '''
-# def test_greater():
-#    num = 100
-#    assert num > 100
+'''
+In this test cases first function will failed and remaining 2 function will be passed.
+'''
 
-# def test_greater_equal():
-#    num = 100
-#    assert num >= 100
+def test_less():
+   num = 200
+   assert num < 300
 
-# def test_less():
-#    num = 100
-#    assert num < 200
+def test_great():
+   num = 300
+   assert num > 200
+
+def test_great_equal():
+   num = 200
+   assert num >= 200
 
 
 
@@ -29,18 +30,18 @@ def test_sum():
 
 
 
-'''
-Reverse the string.
-'''
+# '''
+# Reverse the string.
+# '''
 
-def reverse_string(string):
-   str = ""
-   for i in string:
-      rever_str = i + str
-   return rever_str
+# def reverse_string(string):
+#    str = ""
+#    for i in string:
+#       rever_str = i + str
+#    return rever_str
 
 
-import pytest
+# import pytest
 
-def test_reverse_string():
-   assert reverse_string("Sohail") == "liahos"
+# def test_reverse_string():
+#    assert reverse_string("Sohail") == "liahos"

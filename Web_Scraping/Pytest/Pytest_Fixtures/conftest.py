@@ -1,6 +1,6 @@
 import pytest
 
 @pytest.fixture
-def input_value():
+def values():
    input = 40
    return input

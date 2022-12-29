@@ -8,15 +8,18 @@ after failed some conditions the we have to stop the execution.
 using this cmd you can stop execution after some condition fails.
 '''
 
+
 def test_prod_failure():
-   num =(2,2,2)
-   assert math.prod(num) == 4
+    num = (2, 2, 2)
+    assert math.prod(num) == 4
+
 
 def test_capitalize_failure():
-   string = "sohail"
-   assert string.capitalize() == "SOHAIL"
+    string = "sohail"
+    assert string.capitalize() == "SOHAIL"
+
 
 def test_len_failure():
-   a="Neosoft"
-   b= "Great"
-   assert len(b) == len(a)
+    a = "Neosoft"
+    b = "Great"
+    assert len(b) == len(a)

@@ -1,10 +1,10 @@
 import pytest
 
-def test_divisible_by_3(input_value):
-    assert input_value % 4 == 0
+def test_Mul_by_4(values):
+    assert values * 4 == 160
 
-def test_divisible_by_6(input_value):
-    assert input_value % 5 == 0
+def test_div_by_5(values):
+    assert values % 5 == 0
 
 
 

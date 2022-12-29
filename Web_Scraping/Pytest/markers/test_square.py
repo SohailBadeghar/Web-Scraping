@@ -7,21 +7,21 @@ These are custom markers which we have created in this file.
 '''
 
 
-@pytest.mark.square
+@pytest.mark.logic
 def test_sqrt():
     num = 25
     assert math.sqrt(num) == 5
 
 
-@pytest.mark.square
-def testsquare():
+@pytest.mark.logic
+def test_square():
     num = 7
     assert 7*num == 49
 
 
 @pytest.mark.others
-def test_equality():
-    assert 10 == 11
+def test_equal():
+    assert 23 == 34
 
 
 '''
@@ -46,6 +46,7 @@ Parameterizing of a test is done to run the test against multiple sets of inputs
 
 '''
 
-@pytest.mark.parametrize("num, output",[(1,11),(2,22),(3,35),(4,44)])
+
+@pytest.mark.parametrize("num, output", [(1, 10), (2, 20), (3, 35), (4, 40)])
 def test_multiplication_11(num, output):
-    assert 11*num == output
+    assert 10*num == output

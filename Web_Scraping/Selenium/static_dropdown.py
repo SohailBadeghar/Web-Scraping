@@ -7,10 +7,15 @@ Select Functions.
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.chrome.service import Service
 from  selenium.webdriver.support.select import Select
-services=Service('chromedriver.exe')
-driver = webdriver.Chrome(service=services)
+from selenium.webdriver.chrome.options import Options
+
+options = Options()
+options.headless = True
+driver = webdriver.Chrome(options=options)
+# services=Service('chromedriver.exe')
+# driver = webdriver.Chrome(service=services)
 
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.maximize_window()
@@ -28,4 +33,7 @@ static_dropdown.select_by_index(2)
 time.sleep(5)
 
 static_dropdown.select_by_value("option1")
+
+print(" Process is completed.....")
 time.sleep(4)
+

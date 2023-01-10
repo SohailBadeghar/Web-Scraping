@@ -3,11 +3,11 @@ In this script we are using navigation to get, and locators and also some action
 send_keys(), click(), clear(), text are used.
 '''
 
-
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+
 services=Service('chromedriver.exe')
 driver = webdriver.Chrome(service=services)
 #navigations we can navigate to perticuler browser.

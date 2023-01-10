@@ -23,3 +23,7 @@ def test_strconcat():
     string1 = "Sohail"
     string2 = "Badeghar"
     assert string1 + string2 == "SohailBadeghar"
+
+
+def pytest_html_report_title(report):
+    report.title = "My very own title!"

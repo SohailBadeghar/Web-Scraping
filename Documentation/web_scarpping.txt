@@ -108,3 +108,9 @@ Basic Usage of requests:
 Request Response
     • After Sending the Request , a responce returned , which has many attributes and the status_code , response headers, Cookies, response Contenct.
 
+
+
+To genrate Html reports of pytest:
+1.pip install pytest-html : install it first
+2.to genrate report cmd:
+	pytest "filename" --html=test_sco.html

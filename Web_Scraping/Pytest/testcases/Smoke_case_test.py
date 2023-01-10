@@ -1,5 +1,5 @@
 import math
-
+import pytest
 
 def test_smoke_scenario1():
     print("test_case1")
@@ -22,7 +22,3 @@ def test_mul():
 def test_match():
     assert 11 == 11
 
-
-class TestDemo():
-    def test_inside_class(self):
-        print("class inside test case")

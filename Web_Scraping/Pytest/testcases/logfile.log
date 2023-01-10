@@ -1,0 +1,10 @@
+06/01/2023 12:43:24 PM: DEBUG: logfile: <module>: Debug message
+06/01/2023 12:43:24 PM: INFO: logfile: <module>: Information regarding the test case
+06/01/2023 12:43:24 PM: WARNING: logfile: <module>: Test case pass but with a Warning message
+06/01/2023 12:43:24 PM: ERROR: logfile: <module>: Test case fail
+06/01/2023 12:43:24 PM: CRITICAL: logfile: <module>: Important test case fail on which other test case depends
+06/01/2023 12:43:34 PM: DEBUG: logfile: <module>: Debug message
+06/01/2023 12:43:34 PM: INFO: logfile: <module>: Information regarding the test case
+06/01/2023 12:43:34 PM: WARNING: logfile: <module>: Test case pass but with a Warning message
+06/01/2023 12:43:34 PM: ERROR: logfile: <module>: Test case fail
+06/01/2023 12:43:34 PM: CRITICAL: logfile: <module>: Important test case fail on which other test case depends

@@ -7,15 +7,15 @@ Select Functions.
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.service import Service
 from  selenium.webdriver.support.select import Select
-from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.chrome.options import Options
 
-options = Options()
-options.headless = True
-driver = webdriver.Chrome(options=options)
-# services=Service('chromedriver.exe')
-# driver = webdriver.Chrome(service=services)
+# options = Options()
+# options.headless = True
+# driver = webdriver.Chrome(options=options)
+services=Service('chromedriver.exe')
+driver = webdriver.Chrome(service=services)
 
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.maximize_window()

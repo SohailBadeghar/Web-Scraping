@@ -2,11 +2,15 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
-options = Options()
-options.headless = True
-driver = webdriver.Chrome(options=options)
 
+# options = Options()
+# options.headless = True
+# driver = webdriver.Chrome(options=options)
+
+services=Service('chromedriver.exe')
+driver = webdriver.Chrome(service=services)
 
 driver.get("https://www.naukri.com/")
 driver.maximize_window()
@@ -21,7 +25,8 @@ driver.find_element(By.XPATH,"//input[@placeholder='Enter location']").send_keys
 driver.find_element(By.XPATH,"//div[@class='qsbSubmit']").click()
 time.sleep(5)
 Job_details = driver.find_elements(By.CLASS_NAME,"jobTuple")
-print(Job_details,"@@@@@@@@@@@")
+print(Job_details,"@@@@@@@@@@@")\
+    
 for job in Job_details:
     job_role = job.find_element(By.XPATH,"//body/div[@id='root']/div[@class='search-result-container']/div[@class='search-result-wrap']/div[@class='content']/section[@class='listContainer fleft']/div[@class='list']/article[1]/div[1]/div[1]/a[1]").text
     company_name = job.find_element(By.XPATH,"//*[@id='root']/div[4]/div/div/section[2]/div[2]/article[1]/div[1]/div[1]/div/a").text

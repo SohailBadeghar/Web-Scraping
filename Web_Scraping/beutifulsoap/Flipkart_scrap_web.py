@@ -6,12 +6,14 @@ product_name = []
 product_prices = []
 product_description = []
 product_review = []
-for i in range(2,11):
-    url = "https://www.flipkart.com/search?q=mobile+under+40000&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=" + str(i)
+for i in range(2, 11):
+    url = "https://www.flipkart.com/search?q=mobile+under+40000&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=" + \
+        str(i)
 
     r = requests.get(url)
 
     soup = BeautifulSoup(r.text, "lxml")
+    
 
     box = soup.find("div", class_="_1YokD2 _3Mn1Gg")
 
